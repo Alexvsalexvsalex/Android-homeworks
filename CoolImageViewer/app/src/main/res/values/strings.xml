@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoolImageViewer</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading</string>
+    <string name="not_downloaded">Not downloaded</string>
+    <string name="downloadingInProgress">Downloading in progress</string>
+</resources>

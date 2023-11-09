@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="check_permission">Проверить разрешение</string>
+    <string name="info_check_permission">Для загрузки списка контактов, пожалуйста, дайте разрешение</string>
+    <string name="permission_not_received">Разрешение не было получено</string>
+    <plurals name="contacts_loaded">
+        <item quantity="one">%d контакт загружен</item>
+        <item quantity="few">%d контакта загружено</item>
+        <item quantity="many">%d контактов загружено</item>
+    </plurals>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        style="@style/scrollContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/expressionView"
+            style="@style/expressionText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:maxLines="1"/>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        style="@style/scrollContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/resultView"
+            style="@style/resultText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:maxLines="1" />
+    </HorizontalScrollView>
+
+    <androidx.gridlayout.widget.GridLayout
+        app:rowCount="4"
+        app:columnCount="5"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/num1Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="1"/>
+        <Button
+            android:id="@+id/num2Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="2"/>
+        <Button
+            android:id="@+id/num3Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="3"/>
+        <Button
+            android:id="@+id/resetButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="C"/>
+        <Button
+            android:id="@+id/backspaceButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="BS"/>
+
+        <Button
+            android:id="@+id/num4Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="4"/>
+        <Button
+            android:id="@+id/num5Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="5"/>
+        <Button
+            android:id="@+id/num6Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="6"/>
+
+        <Button
+            android:id="@+id/plusButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="+"/>
+
+        <Button
+            style="@style/calculatorButton"
+            android:id="@+id/minusButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="-"/>
+
+        <Button
+            android:id="@+id/num7Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="7"/>
+        <Button
+            android:id="@+id/num8Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="8"/>
+        <Button
+            android:id="@+id/num9Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="9"/>
+        <Button
+            style="@style/calculatorButton"
+            android:id="@+id/mulButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="*"/>
+        <Button
+            style="@style/calculatorButton"
+            android:id="@+id/divideButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="/"/>
+
+        <Button
+            android:id="@+id/dotButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="."/>
+        <Button
+            android:id="@+id/num0Button"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="0"/>
+        <Button
+            android:id="@+id/percentButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            android:text="MOD" />
+        <Button
+            android:id="@+id/calcButton"
+            style="@style/calculatorButton"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_columnSpan="2"
+            android:text="=" />
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>

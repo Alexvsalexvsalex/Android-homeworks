@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="header">Weather</string>
+    <string name="wind_flow">Wind flow</string>
+    <string name="london_uk">London, UK</string>
+    <string name="sunny">Sunny</string>
+    <string name="perception">Perception</string>
+    <string name="humidity">Humidity</string>
+    <string name="windy">Windy</string>
+    <string name="rainy">Rainy</string>
+    <string name="rainbow">Rainbow</string>
+    <string name="moon">Moon</string>
+</resources>

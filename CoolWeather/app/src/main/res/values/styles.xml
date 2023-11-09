@@ -1,0 +1,66 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="header">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="card">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">4dp</item>
+    </style>
+
+    <style name="mainPart">
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="bottomButton">
+        <item name="android:padding">12dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="mainCharValue">
+        <item name="android:textColor">@color/activeTextColor</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="mainCharLabel">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="mainCharPic">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="currentWeatherTemp">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="currentWeatherAdditionalInfo">
+        <item name="android:textColor">@color/lightTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="weatherInfo">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="weatherPic">
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="weatherTime">
+        <item name="android:padding">2dp</item>
+    </style>
+</resources>
